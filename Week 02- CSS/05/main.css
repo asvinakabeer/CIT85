@@ -1,0 +1,12 @@
+div {
+    width: 900px;
+    height: 300px;
+    background-color: red;
+    border: 20px groove deepskyblue;
+    border-radius: 20%;
+    margin: 50px auto;
+    background-image: url("little green men.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
