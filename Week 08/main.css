@@ -1,0 +1,43 @@
+html, body, main, div{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    border: 4px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+div{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-color: blue;
+    border: 4px solid green;
+    justify-content: center;
+    align-items: center;
+}
+
+#s01 {
+
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+#s02 {
+   
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+#s03 {
+   
+    flex-grow: 1;
+    flex-shrink: 2;
+}
